@@ -1,16 +1,24 @@
-import Profile from "../components/Profile"
-
+import { useSelector } from "react-redux";
+import Profile from "../components/Profile";
+import { useFetchdata } from "../hooks/useFetchdata";
+import TechStack from "../components/TechStack";
+import Info from "../components/Info";
+import info from "../utils/info.json"
 const Home = () => {
-  return (
-    <div>
-        <main>
-            <section>
-                <Profile/>
-                {/* {carousel} */}
-            </section>
-        </main>
-    </div>
-  )
-}
+  useFetchdata();
+  const adviceData = useSelector((store) => store.userStore?.bio);
 
-export default Home
+  return (
+    adviceData && (
+      <div className="min-h-screen flex items-center justify-between">
+        <div className="flex flex-col max-w-[640px] border-r-2">
+          <Profile adviceData={adviceData} />
+          <TechStack />
+        </div>
+        <Info info={info}/>
+      </div>
+    )
+  );
+};
+
+export default Home;

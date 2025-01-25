@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <nav>
-        <ul>
+    <nav className="bg-rose-300 p-4">
+        <ul className="flex justify-evenly">
             <li>
                 <Link to={"/"}>Home</Link>
             </li>
@@ -12,6 +12,9 @@ const Header = () => {
             </li>
             <li>
                 <Link to={"/contact"}>Contact</Link>
+            </li>
+            <li>
+                <Link to={"/projects"}>Projects</Link>
             </li>
         </ul>
     </nav>

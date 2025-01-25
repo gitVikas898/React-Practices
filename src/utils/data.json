@@ -1,0 +1,26 @@
+[
+    {
+        "name": "HTML",
+        "url" :  "https://images.javatpoint.com/htmlpages/images/html-tutorial.png"
+    },
+    {
+        "name" : "CSS",
+        "url"  :  "https://images.javatpoint.com/csspages/images/css-tutorial.png"
+    },
+    {
+        "name" : "JavaScript",
+        "url"  :  "https://images.javatpoint.com/images/javascript/javascript_logo.png"
+    },
+    {
+        "name" : "React JS",
+        "url"  :  "https://miro.medium.com/v2/format:webp/1*K0a7xINk0RM5gfXGSN68cw.png"
+    },
+    {
+        "name" : "Redux",
+        "url"  :  "https://miro.medium.com/v2/resize:fit:640/format:webp/1*tOI6UC5EaS2fPItCesI-AQ.png"
+    },
+    {
+        "name" : "Tailwind CSS",
+        "url"  : "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp"
+    }
+]

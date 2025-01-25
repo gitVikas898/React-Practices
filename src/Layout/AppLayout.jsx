@@ -5,8 +5,10 @@ const AppLayout = () => {
   return (
     <div>
         <Header/>
-        <Outlet/>
-        <div></div>
+        <div className='p-20'><Outlet/></div>
+        <div className='flex items-center justify-center p-2'>
+            <p>Made With 💖 by Vikas</p>
+        </div>
     </div>
   )
 }
