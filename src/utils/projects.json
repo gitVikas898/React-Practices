@@ -1,0 +1,56 @@
+
+    [
+      { "id" : "1",
+        "name": "Klimate",
+        "description": "A weather app that provides real-time weather updates and forecasts.",
+        "techStack": ["TanStack", "React", "shadcn/ui", "React Charts", "TailwindCSS"],
+        "features": [
+          "Real-time weather updates",
+          "7-day weather forecast",
+          "Interactive charts for weather trends"
+        ],
+        "repository": "https://github.com/yourusername/klimate",
+        "liveDemo": "https://klimate.yourdomain.com",
+        "img_url" : "/public/klimate.jpg"
+      },
+      { "id" : "2",
+        "name": "Hired",
+        "description": "A platform to streamline job applications and manage hiring workflows.",
+        "techStack": ["shadcn/ui", "TailwindCSS", "React"],
+        "features": [
+          "Manage and track job applications",
+          "Collaborative hiring tools",
+          "Customizable workflows"
+        ],
+        "repository": "https://github.com/yourusername/hired",
+        "liveDemo": "https://hired.yourdomain.com",
+         "img_url" : "/public/hirred.jpg"
+      },
+      { "id" : "3",
+        "name": "NetflixGPT",
+        "description": "An app to browse, search, and save your favorite movies.",
+        "techStack": ["TailwindCSS", "React", "Redux"],
+        "features": [
+          "Search movies by title or genre",
+          "Use GPT feature to find Moives"
+        ],
+        "repository": "https://github.com/yourusername/movieapp",
+        "liveDemo": "https://movieapp.yourdomain.com",
+         "img_url" : "/public/netflix.jpg"
+      },
+      { 
+        "id" :"4",
+        "name": "FoodApp",
+        "description": "A food ordering app for browsing menus, placing orders, and tracking deliveries.",
+        "techStack": ["React", "Redux", "TailwindCSS"],
+        "features": [
+          "Browse menus from various restaurants",
+          "Add items to cart and place orders",
+          "Track delivery status in real-time"
+        ],
+        "repository": "https://github.com/yourusername/foodapp",
+        "liveDemo": "https://foodapp.yourdomain.com",
+         "img_url" : "/public/Food.jpg"
+      }
+    ]
+  

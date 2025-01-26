@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
+import Info from './pages/Info'
+import projects from "./utils/projects.json"
 
 function App() {
 
@@ -27,6 +29,10 @@ function App() {
         {
           path:"/projects",
           element:<Projects/>
+        },
+        {
+          path:"/info/:id",
+          element:<Info projects={projects}/>
         }
       ]
     }
