@@ -6,13 +6,13 @@ import Info from "../components/Info";
 import info from "../utils/info.json"
 const Home = () => {
   useFetchdata();
-  const adviceData = useSelector((store) => store.userStore?.bio);
+  const myData = useSelector((store) => store.userStore?.bio);
 
   return (
-    adviceData && (
+    myData && (
       <div className="min-h-screen flex items-center justify-between">
         <div className="flex flex-col max-w-[640px] border-r-2">
-          <Profile adviceData={adviceData} />
+          <Profile myData={myData} />
           <TechStack />
         </div>
         <Info info={info}/>

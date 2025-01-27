@@ -1,6 +1,10 @@
+import Carousel from "../components/Carousel"
+import projects from "../utils/projects.json"
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+        <Carousel items={projects}/>
+    </div>
   )
 }
 

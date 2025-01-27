@@ -3,28 +3,33 @@
       { "id" : "1",
         "name": "Klimate",
         "description": "A weather app that provides real-time weather updates and forecasts.",
-        "techStack": ["TanStack", "React", "shadcn/ui", "React Charts", "TailwindCSS"],
+        "techStack": ["TanStack", "React", "Shadcn/ui", "React Charts", "TailwindCSS"],
         "features": [
+          "Error States",
           "Real-time weather updates",
-          "7-day weather forecast",
-          "Interactive charts for weather trends"
+          "5-day weather forecast",
+          "Interactive charts",
+          "Add To Favorites Option",
+          "Dark and Light Mode"
         ],
         "repository": "https://github.com/yourusername/klimate",
         "liveDemo": "https://klimate.yourdomain.com",
-        "img_url" : "/public/klimate.jpg"
+        "img_url" : "/public/klimate.jpg",
+        "url_array": ["/public/klimate2.jpg","/public/klimate3.jpg","/public/klimate4.jpg","/public/klimate5.jpg","/public/klimate6.jpg","/public/klimate7.jpg"]
       },
       { "id" : "2",
         "name": "Hired",
         "description": "A platform to streamline job applications and manage hiring workflows.",
-        "techStack": ["shadcn/ui", "TailwindCSS", "React"],
+        "techStack": ["Shadcn/ui", "TailwindCSS", "React"],
         "features": [
           "Manage and track job applications",
-          "Collaborative hiring tools",
-          "Customizable workflows"
+          "Post and Delete Job",
+          "Check Status of Applications"
         ],
         "repository": "https://github.com/yourusername/hired",
         "liveDemo": "https://hired.yourdomain.com",
-         "img_url" : "/public/hirred.jpg"
+         "img_url" : "/public/hirred.jpg",
+         "url_array": ["/public/hirred.jpg","/public/hirred2.jpg","/public/hirred3.jpg"]
       },
       { "id" : "3",
         "name": "NetflixGPT",
@@ -36,7 +41,8 @@
         ],
         "repository": "https://github.com/yourusername/movieapp",
         "liveDemo": "https://movieapp.yourdomain.com",
-         "img_url" : "/public/netflix.jpg"
+         "img_url" : "/public/netflix.jpg",
+         "url_array": ["/public/netflix1.jpg","/public/netflix2.jpg","/public/netflix3.jpg","/public/netflix4.jpg"]
       },
       { 
         "id" :"4",
@@ -44,13 +50,15 @@
         "description": "A food ordering app for browsing menus, placing orders, and tracking deliveries.",
         "techStack": ["React", "Redux", "TailwindCSS"],
         "features": [
+          "Shimmer UI",
           "Browse menus from various restaurants",
-          "Add items to cart and place orders",
-          "Track delivery status in real-time"
+          "Add items to cart",
+          "Search with lables"
         ],
         "repository": "https://github.com/yourusername/foodapp",
         "liveDemo": "https://foodapp.yourdomain.com",
-         "img_url" : "/public/Food.jpg"
+         "img_url" : "/public/Food.jpg",
+         "url_array": ["/public/Food.jpg","/public/food1.jpg","/public/food2.jpg","/public/food3.jpg","/public/food4.jpg"]
       }
     ]
   

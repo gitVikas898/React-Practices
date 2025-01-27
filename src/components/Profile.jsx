@@ -1,9 +1,9 @@
 
-export const Profile = ({adviceData}) => {
+export const Profile = ({myData}) => {
 
    
 
-    const{name,avatar_url,bio,twitter_username,login} = adviceData;
+    const{name,avatar_url,bio,twitter_username,login} = myData;
   return (
     <div className="max-w-[30rem] flex flex-col gap-4 items-center justify-between p-2">
       <div className="h-52 w-52 rounded-full">

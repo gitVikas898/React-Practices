@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import Carousel from '../components/Carousel';
 
 const Info = ({projects}) => {
     const {id} = useParams();
@@ -16,7 +17,7 @@ const Info = ({projects}) => {
 
   return (
     <div className='flex justify-between gap-4'>
-        <div className='border-r'>
+        <div className='border-r p-4'>
             <h1 className='text-4xl'>{project.name}</h1>
             <p>{project.description}</p>
             <h2 className="text-xl mt-4">Tech Stack:</h2>
@@ -33,7 +34,7 @@ const Info = ({projects}) => {
                 </ul>
         </div>
         <div>
-            <img src={project.img_url} alt="" />
+            <Carousel items={project.url_array} />
         </div>
     </div>
   )
