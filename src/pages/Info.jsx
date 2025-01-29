@@ -1,6 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Carousel from '../components/Carousel';
+import InfoCard from '../components/InfoCard';
+// import Carousel from '../components/MyCarousel';
+import Carousel from '../components/UI/Carousel';
 
 const Info = ({projects}) => {
     const {id} = useParams();
@@ -9,32 +11,20 @@ const Info = ({projects}) => {
 
     if(!project){
         return (
-            <div>
-                Loading ......
-            </div>
+            <div className="skeleton h-96 w-full"></div>
         )
     }
 
   return (
-    <div className='flex justify-between gap-4'>
-        <div className='border-r p-4'>
-            <h1 className='text-4xl'>{project.name}</h1>
-            <p>{project.description}</p>
-            <h2 className="text-xl mt-4">Tech Stack:</h2>
-                <ul className="list-disc list-inside">
-                    {project.techStack.map((tech, index) => (
-                        <li key={index}>{tech}</li>
-                    ))}
-                </ul>
-            <h2 className="text-xl mt-4">Features:</h2>
-                <ul className="list-disc list-inside">
-                    {project.features.map((tech, index) => (
-                        <li key={index}>{tech}</li>
-                    ))}
-                </ul>
-        </div>
-        <div>
-            <Carousel items={project.url_array} />
+    <div className='container mx-auto'>
+        <div className='flex flex-col gap-2 sm:flex-row items-center justify-between '>
+            <div>
+                <InfoCard project={project} />
+            </div>
+            <div>
+                <Carousel items={project.url_array}/>
+                {/* <Carousel items={project.url_array}/> */}
+            </div>
         </div>
     </div>
   )

@@ -13,10 +13,12 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="flex gap-2 items-center justify-center w-full overflow-hidden p-4">
-      <button className="bg-white border border-black text-black p-4 rounded-lg hover:bg-black hover:text-white transition-colors" onClick={gotoPrevious}>
-        Prev
-      </button>
+    <div className="flex gap-2 items-center justify-center w-full overflow-hidden p-4 relative">
+      <div className="">
+        <button className="btn btn-primary"  onClick={gotoPrevious}>
+          Prev
+        </button>
+      </div>
       <div className="flex transition-all 0.5s ease-in">
         {items.map((item, index) => {
           return (
@@ -32,7 +34,7 @@ const Carousel = ({ items }) => {
         })}
       </div>
 
-      <button className="bg-white border border-black text-black p-4 rounded-lg hover:bg-black hover:text-white transition-colors"  onClick={gotoNext}>
+      <button className="btn btn-primary"  onClick={gotoNext}>
         Next
       </button>
     </div>
