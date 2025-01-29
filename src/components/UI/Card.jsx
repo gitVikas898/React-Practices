@@ -20,13 +20,7 @@ const Card = ({myData}) => {
         <h1 className="card-title">{name}</h1>
       <h2 className="card-title">{login}</h2>
       <p>{bio}</p>
-      <div className="flex justify-between">
-        <button className="btn btn-primary"> <FaLinkedin/> LinkedIn</button>
-        <button className="btn btn-primary"><FaSquareXTwitter/>Twitter</button>
-        <button className="btn btn-primary">
-           <FaGithub/> GitHub
-        </button>
-      </div>
+      
     </div>
   </div>
   );

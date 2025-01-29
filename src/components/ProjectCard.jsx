@@ -5,7 +5,7 @@ const ProjectCard = ({ projects }) => {
     <div className="flex flex-col gap-2 sm:grid grid-cols-4">
         {projects.map((project)=>{
             return(
-                <div className="card bg-base-100 w-full shadow-sm transition-all ease-in-out 3s hover:scale-110" key={project.id}>
+                <div className="card bg-base-100 w-full shadow-sm transition-all ease-in-out 3s hover:scale-90" key={project.id}>
                 <figure>
                   <img
                     src={project.img_url}
@@ -18,8 +18,8 @@ const ProjectCard = ({ projects }) => {
                     {project.description}
                   </p>
                   <div className="flex items-center justify-between">
-                      <Link ><button className="btn btn-accent">Repo</button></Link>
-                      <Link><button className="btn btn-primary">Live</button></Link>
+                      <a href={project.repository} target="_blank" rel="noopener noreferrer" ><button className="btn btn-accent">Repo</button></a>
+                      <a href={project.liveDemo} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live</button></a>
                       <Link to={`/info/${project.id}`}><button className="btn btn-info">Info</button></Link>
                   </div>
                 </div>

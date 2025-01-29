@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import InfoCard from '../components/InfoCard';
-// import Carousel from '../components/MyCarousel';
-import Carousel from '../components/UI/Carousel';
+import Carousel from '../components/MyCarousel';
+
 
 const Info = ({projects}) => {
     const {id} = useParams();
@@ -23,7 +23,6 @@ const Info = ({projects}) => {
             </div>
             <div>
                 <Carousel items={project.url_array}/>
-                {/* <Carousel items={project.url_array}/> */}
             </div>
         </div>
     </div>

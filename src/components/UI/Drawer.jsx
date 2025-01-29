@@ -25,7 +25,10 @@ const Drawer = () => {
                     <Link to={"/projects"}>Projects</Link>
                   </li>
                   <li>
-                    <a>Sidebar Item 2</a>
+                    <Link to={"/contact"}>Contact</Link>
+                  </li>
+                  <li>
+                    <Link to={"/about"}>About</Link>
                   </li>
                 </ul>
               </div>

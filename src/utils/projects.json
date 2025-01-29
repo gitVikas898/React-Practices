@@ -12,8 +12,8 @@
           "Add To Favorites Option",
           "Dark and Light Mode"
         ],
-        "repository": "https://github.com/yourusername/klimate",
-        "liveDemo": "https://klimate.yourdomain.com",
+        "repository": "https://github.com/gitVikas898/Klimate",
+        "liveDemo": "https://klimate-alpha.vercel.app/",
         "img_url" : "/public/klimate.jpg",
         "url_array": ["/public/klimate2.jpg","/public/klimate3.jpg","/public/klimate4.jpg","/public/klimate5.jpg","/public/klimate6.jpg","/public/klimate7.jpg"]
       },
@@ -26,8 +26,8 @@
           "Post and Delete Job",
           "Check Status of Applications"
         ],
-        "repository": "https://github.com/yourusername/hired",
-        "liveDemo": "https://hired.yourdomain.com",
+        "repository": "https://github.com/gitVikas898/job-portal-app",
+        "liveDemo": "https://hirred-alpha.vercel.app/",
          "img_url" : "/public/hirred.jpg",
          "url_array": ["/public/hirred.jpg","/public/hirred2.jpg","/public/hirred3.jpg"]
       },
@@ -39,8 +39,8 @@
           "Search movies by title or genre",
           "Use GPT feature to find Moives"
         ],
-        "repository": "https://github.com/yourusername/movieapp",
-        "liveDemo": "https://movieapp.yourdomain.com",
+        "repository": "https://github.com/gitVikas898/movie-app",
+        "liveDemo": "https://movie-app-azure-eight.vercel.app/",
          "img_url" : "/public/netflix.jpg",
          "url_array": ["/public/netflix1.jpg","/public/netflix2.jpg","/public/netflix3.jpg","/public/netflix4.jpg"]
       },
@@ -55,8 +55,8 @@
           "Add items to cart",
           "Search with lables"
         ],
-        "repository": "https://github.com/yourusername/foodapp",
-        "liveDemo": "https://foodapp.yourdomain.com",
+        "repository": "https://github.com/gitVikas898/food-app",
+        "liveDemo": "https://food-app-lr9l.vercel.app/",
          "img_url" : "/public/Food.jpg",
          "url_array": ["/public/Food.jpg","/public/food1.jpg","/public/food2.jpg","/public/food3.jpg","/public/food4.jpg"]
       }
